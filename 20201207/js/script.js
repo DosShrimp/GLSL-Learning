@@ -257,7 +257,7 @@ class WebGLFrame {
 
     this.ibo = this.createIbo(this.index); //インデックスバッファ作成
 
-    gl.clearColor(0.0, 0.0, 0.0, 0.0);
+    gl.clearColor(0.0, 0.0, 0.0, 1.0);
     gl.clearDepth(1.0);
     gl.enable(gl.DEPTH_TEST); //深度テスト
 
