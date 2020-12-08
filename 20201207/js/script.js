@@ -124,7 +124,7 @@ class WebGLFrame {
           gl.getUniformLocation(this.program, 'textureUnit0'), //テクスチャユニット
           gl.getUniformLocation(this.program, 'textureUnit1'),
           gl.getUniformLocation(this.program, 'textureUnit2'),
-          gl.getUniformLocation(this.program, 'tectureUnit3'),
+          gl.getUniformLocation(this.program, 'textureUnit3'),
         ];
 
         this.uniType = [
